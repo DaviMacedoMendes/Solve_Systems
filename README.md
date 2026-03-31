@@ -39,8 +39,8 @@ X2 = -2
 X3 = -2
 ```
 ## 👥 Integrantes do Grupo
-| ![Sua Foto](https://github.com/DaviMacedoMendes/.png?size=150) |
+| ![Sua Foto](https://github.com/DaviMacedoMendes.png?size=150) |
 | :---: |
-| **[Seu Nome Completo](https://github.com/DaviMacedoMendes/)** |
+| **[Seu Nome Completo](https://github.com/DaviMacedoMendes)** |
 
 Desenvolvido para a disciplina de Calculo Numérico - Curso de Ciência da Computação.
