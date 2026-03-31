@@ -1,0 +1,14 @@
+/home/harley/Projetos/Faculdade/Solve_Sistems/bin/Debug/net10.0/Solve_Sistems
+/home/harley/Projetos/Faculdade/Solve_Sistems/bin/Debug/net10.0/Solve_Sistems.deps.json
+/home/harley/Projetos/Faculdade/Solve_Sistems/bin/Debug/net10.0/Solve_Sistems.runtimeconfig.json
+/home/harley/Projetos/Faculdade/Solve_Sistems/bin/Debug/net10.0/Solve_Sistems.dll
+/home/harley/Projetos/Faculdade/Solve_Sistems/bin/Debug/net10.0/Solve_Sistems.pdb
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/Solve_Sistems.GeneratedMSBuildEditorConfig.editorconfig
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/Solve_Sistems.AssemblyInfoInputs.cache
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/Solve_Sistems.AssemblyInfo.cs
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/Solve_Sistems.csproj.CoreCompileInputs.cache
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/Solve_Sistems.dll
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/refint/Solve_Sistems.dll
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/Solve_Sistems.pdb
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/Solve_Sistems.genruntimeconfig.cache
+/home/harley/Projetos/Faculdade/Solve_Sistems/obj/Debug/net10.0/ref/Solve_Sistems.dll
