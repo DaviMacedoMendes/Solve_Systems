@@ -4,6 +4,7 @@ Este projeto é uma aplicação de console desenvolvida em **C#** que resolve si
 
 O software foi projetado para transformar uma matriz aumentada em sua forma escalonada (triangular superior) e realizar a substituição regressiva para encontrar as incógnitas.
 
+
 ## 🚀 Funcionalidades
 
 - **Entrada Dinâmica:** O usuário define o tamanho do sistema ($N \times N$) e insere os coeficientes.
@@ -17,11 +18,13 @@ O software foi projetado para transformar uma matriz aumentada em sua forma esca
     - **SI:** Sistema Incompatível (Nenhuma solução).
 - **Interface de Console:** Exibição clara da matriz original e da matriz após o escalonamento.
 
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem:** C#
 - **Framework:** .NET SDK 8.0 (ou superior)
 - **Ambiente de Desenvolvimento:** Linux / VS Code
+
 
 ## 📖 Exemplo de Uso
 Ao iniciar, o programa solicitará o tamanho do sistema e os coeficientes linha por linha.
@@ -38,9 +41,10 @@ X1 = 1
 X2 = -2
 X3 = -2
 ```
+
 ## 👥 Integrantes do Grupo
 | ![Sua Foto](https://github.com/DaviMacedoMendes.png?size=150) |
 | :---: |
-| **[Seu Nome Completo](https://github.com/DaviMacedoMendes)** |
+| **[Davi Macedo Mendes](https://github.com/DaviMacedoMendes)** |
 
 Desenvolvido para a disciplina de Calculo Numérico - Curso de Ciência da Computação.
