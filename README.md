@@ -26,18 +26,9 @@ O software foi projetado para transformar uma matriz aumentada em sua forma esca
 ## 📖 Exemplo de Uso
 Ao iniciar, o programa solicitará o tamanho do sistema e os coeficientes linha por linha.
 
-# Exemplo de entrada ($3 \times 3$):
+### Exemplo de entrada ($3 \times 3$):
 ```Plaintext
 3x + 2y - 1z = 1
 2x - 2y + 4z = -2
 -1x + 0.5y - 1z = 0
 ```
-
-## 📋 Como Executar o Projeto
-
-Certifique-se de ter o SDK do .NET instalado.
-
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
-

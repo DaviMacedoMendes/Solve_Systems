@@ -6,18 +6,16 @@ class Program
     {
         Console.WriteLine("--- Resolutor de Sistemas Lineares (Escalonamento) ---");
         
-        // 1. Solicitar o tamanho do sistema
         Console.Write("Digite o tamanho do sistema (ex: 3 para 3x3): ");
         int n = int.Parse(Console.ReadLine());
 
         if (n > 10 || n < 2) {
-            Console.WriteLine("Tamanho inválido. Escolha entre 2 e 10.");
+            Console.WriteLine("Tamanho inválido. Tamanho permitido: Min. 3 | Max. 10.");
             return;
         }
 
         double[,] matriz = new double[n, n + 1];
 
-        // 2. Solicitar coeficientes e termos independentes
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < n; j++)
@@ -29,14 +27,11 @@ class Program
             matriz[i, n] = double.Parse(Console.ReadLine());
         }
 
-        // 3. Imprimir sistema original
         Console.WriteLine("\n--- Sistema Original ---");
         ImprimirMatriz(matriz, n);
 
-        // 4. Escalonamento (Eliminação de Gauss)
         for (int i = 0; i < n; i++)
         {
-            // Pivoteamento simples (troca de linha se o pivô for zero)
             if (matriz[i, i] == 0)
             {
                 for (int k = i + 1; k < n; k++)
@@ -49,7 +44,6 @@ class Program
                 }
             }
 
-            // Transformar elementos abaixo do pivô em zero
             for (int k = i + 1; k < n; k++)
             {
                 if (matriz[i, i] == 0) continue; 
@@ -60,12 +54,9 @@ class Program
                 }
             }
         }
-
-        // 4. Imprimir sistema escalonado
         Console.WriteLine("\n--- Sistema Escalonado ---");
         ImprimirMatriz(matriz, n);
 
-        // 5 & 6. Substituição regressiva e Verificação de SI/SPI
         ResolverSistema(matriz, n);
     }
 
