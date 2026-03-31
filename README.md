@@ -32,3 +32,15 @@ Ao iniciar, o programa solicitará o tamanho do sistema e os coeficientes linha 
 2x - 2y + 4z = -2
 -1x + 0.5y - 1z = 0
 ```
+### Saída Esperada:
+```Plaintext
+X1 = 1
+X2 = -2
+X3 = -2
+```
+## 👥 Integrantes do Grupo
+| ![Sua Foto](https://github.com/DaviMacedoMendes/.png?size=150) |
+| :---: |
+| **[Seu Nome Completo](https://github.com/DaviMacedoMendes/)** |
+
+Desenvolvido para a disciplina de Calculo Numérico - Curso de Ciência da Computação.

@@ -14,29 +14,31 @@ class Program
             return;
         }
 
-        double[,] matriz = new double[n, n + 1];
+        double[,] matriz = new double[n, n + 1]; //Armazena a quantidade de linhas e colunas do sistema
 
+        //Faz a atribuicao dos coeficiente e termos independentes
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < n; j++)
             {
                 Console.Write($"A[{i + 1},{j + 1}]: ");
-                matriz[i, j] = double.Parse(Console.ReadLine());
+                matriz[i, j] = double.Parse(Console.ReadLine()); //Coeficientes
             }
             Console.Write($"Termo independente B[{i + 1}]: ");
-            matriz[i, n] = double.Parse(Console.ReadLine());
+            matriz[i, n] = double.Parse(Console.ReadLine()); //Termo independente
         }
 
         Console.WriteLine("\n--- Sistema Original ---");
-        ImprimirMatriz(matriz, n);
+        ImprimirMatriz(matriz, n); //Mostra ao usuario o sistema original
 
+        //Faz a verificacao se o pivo e zero ou nao
         for (int i = 0; i < n; i++)
         {
-            if (matriz[i, i] == 0)
+            if (matriz[i, i] == 0) //Se algum for zero
             {
-                for (int k = i + 1; k < n; k++)
+                for (int k = i + 1; k < n; k++) //Procura nas linhas abaixo
                 {
-                    if (matriz[k, i] != 0)
+                    if (matriz[k, i] != 0) //Realiza a troca com a linha que nao for zero
                     {
                         TrocarLinhas(matriz, i, k, n);
                         break;
@@ -55,7 +57,7 @@ class Program
             }
         }
         Console.WriteLine("\n--- Sistema Escalonado ---");
-        ImprimirMatriz(matriz, n);
+        ImprimirMatriz(matriz, n); //Mostra o Sistema Escalonado
 
         ResolverSistema(matriz, n);
     }
@@ -71,12 +73,12 @@ class Program
                 soma += m[i, j] * x[j];
             }
 
-            if (Math.Abs(m[i, i]) < 1e-10) // Próximo de zero
+            if (Math.Abs(m[i, i]) < 1e-10)
             {
                 if (Math.Abs(m[i, n] - soma) < 1e-10)
                     Console.WriteLine("\nResultado: Sistema Possível e Indeterminado (SPI) - Infinitas Soluções.");
                 else
-                    Console.WriteLine("\nResultado: Sistema Incompatível (SI) - Não tem solução.");
+                    Console.WriteLine("\nResultado: Sistema Impossível (SI) - Não tem solução.");
                 return;
             }
 
